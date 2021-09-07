@@ -1,0 +1,13 @@
+cffi==1.14.6
+chardet==4.0.0
+click==8.0.1
+cryptography==3.4.8
+joblib==1.0.1
+nltk==3.6.2
+numpy==1.21.1
+pdfminer.six==20201018
+pycparser==2.20
+pycryptodome==3.10.1
+regex==2021.8.3
+sortedcontainers==2.4.0
+tqdm==4.62.0
