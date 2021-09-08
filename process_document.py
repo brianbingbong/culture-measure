@@ -19,6 +19,7 @@ import sys
 import logging
 from pdfminer.high_level import extract_text
 import re
+import csv
 
 # set up logger
 logger = logging.getLogger()
@@ -91,7 +92,7 @@ def main():
         # named entity extraction and removal
         # credit to: https://stackoverflow.com/questions/43742956/fast-named-entity-removal-with-nltk
         namedEntities = set([leaf[0][0] for leaf in namedEntitiesTree if type(leaf) == nltk.Tree])
-        wordTokens = [leaf[0] for leaf in namedEntitiesTree if type(leaf) != nltk.Tree]
+        wordTokens = [leaf[0].lower() for leaf in namedEntitiesTree if type(leaf) != nltk.Tree]
 
         # create chunk tree
         phraseChunkTreeNp = chunkPhraseParserNp.parse(nltk.pos_tag(wordTokensRaw))
@@ -103,16 +104,34 @@ def main():
                        extractChunkText(phraseChunkTreeVp1, 'VP', namedEntities) + \
                        extractChunkText(phraseChunkTreeVp2, 'VP', namedEntities)
 
-        # write outputs to files
-        with open('DTMs/' + fileName + '-phrases.txt', 'w') as outFile:
-            for phrase in phraseTokens:
-                outFile.write(phrase.lower())
-                outFile.write('\n')
+        # construct words dtm
+        wordsDtm = dict.fromkeys(wordTokens, 0)
+        for word in wordTokens:
+            wordsDtm[word] += 1
 
-        with open('DTMs/' + fileName + '-words.txt', 'w') as outFile:
-            for word in wordTokens:
-                outFile.write(word.lower())
-                outFile.write('\n')
+        # construct phrases dtm
+        phrasesDtm = dict.fromkeys(phraseTokens, 0)
+        for phrase in phraseTokens:
+            phrasesDtm[phrase] += 1
+
+        # write output to files
+        with open('DTMs/' + fileName + '-words.csv', 'w') as outFile:
+            fieldnames = ['token', 'frequency']
+            writer = csv.DictWriter(outFile, fieldnames=fieldnames)
+
+            writer.writeheader()
+            for word in wordsDtm.keys():
+                writer.writerow({'token': word,
+                                 'frequency': wordsDtm[word]})
+
+        with open('DTMs/' + fileName + '-phrases.csv', 'w') as outFile:
+            fieldnames = ['token', 'frequency']
+            writer = csv.DictWriter(outFile, fieldnames=fieldnames)
+
+            writer.writeheader()
+            for phrase in phrasesDtm.keys():
+                writer.writerow({'token': phrase,
+                                 'frequency': phrasesDtm[phrase]})
 
 
 def extractChunkText(chunkTree, chunkType, namedEntities):
@@ -125,7 +144,7 @@ def extractChunkText(chunkTree, chunkType, namedEntities):
     # discard the POS tag for each word, join the words of each phrase array into a string
     for i in range(len(chunkLeaves)):
         for j in range(len(chunkLeaves[i])):
-            chunkLeaves[i][j] = chunkLeaves[i][j][0]
+            chunkLeaves[i][j] = chunkLeaves[i][j][0].lower()
             # replace named entities with 'xxx'
             if chunkLeaves[i][j] in namedEntities:
                 chunkLeaves[i][j] = NAMED_ENTITY_REPLACEMENT
