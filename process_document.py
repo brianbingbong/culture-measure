@@ -1,18 +1,15 @@
 """
 Written by Brian Li Ong
 Date: 07/09/2021
-This script takes a PDF file and performs text preprocessing to transform the document into a document term matrix
-(TDM). NLP techniques applied will be word tokenization, punctuation removal, removal or stopwords, named entity
-removal, lemmatization, case normalisation, parts of speech (POS) tagging, phrase chunking to extract noun and verb
+This script takes a txt file containing paths to input files to be preprocessed into document term matrices (TDM). NLP
+techniques applied will be word tokenization, punctuation removal, removal or stopwords, named entity removal,
+lemmatization, case normalisation, parts of speech (POS) tagging, phrase chunking to extract noun and verb
 phrases. The output will be a plain text file.
 containing all extracted phrase tokens.
 
-TODO: replace named entities with xxx in phrase tokens
-    case normalisation of word and phrase tokens
-    replace numbers with 0 instead of nothing??? maybe
+TODO: replace numbers with 0 instead of nothing??? maybe
 """
 
-from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -22,9 +19,6 @@ import sys
 import logging
 from pdfminer.high_level import extract_text
 import re
-import string
-
-ARTEFACT_FILES = "files.txt"
 
 # set up logger
 logger = logging.getLogger()
@@ -55,7 +49,7 @@ def main():
         exit(1)
 
     # get the file names of artefacts to be read
-    with open('files.txt', 'r') as f:
+    with open(sys.argv[1], 'r') as f:
         artefactFiles = f.read().splitlines()
 
     # set up nlp preprocessing
@@ -77,7 +71,7 @@ def main():
             elif artefact[-4:] == '.txt':
                 text = inFile.read()
             else:
-                logger.error('Input file type not recognised, ensure files are of type .pdf or .txt')
+                logger.error(f'{artefact} file type not supported, ensure files are of type .pdf or .txt')
                 exit(1)
 
         # remove punctuation
@@ -92,9 +86,11 @@ def main():
         wordTokensLemmatized = [lemmatizer.lemmatize(word) for word in wordTokensRaw]
         wordTokens = [word for word in wordTokensLemmatized if word not in stopWords]
 
-        # named entity removal
-        # credit to: https://stackoverflow.com/questions/43742956/fast-named-entity-removal-with-nltk
         namedEntitiesTree = nltk.ne_chunk(nltk.pos_tag(wordTokens))
+
+        # named entity extraction and removal
+        # credit to: https://stackoverflow.com/questions/43742956/fast-named-entity-removal-with-nltk
+        namedEntities = set([leaf[0][0] for leaf in namedEntitiesTree if type(leaf) == nltk.Tree])
         wordTokens = [leaf[0] for leaf in namedEntitiesTree if type(leaf) != nltk.Tree]
 
         # create chunk tree
@@ -103,28 +99,36 @@ def main():
         phraseChunkTreeVp2 = chunkPhraseParserVp2.parse(nltk.pos_tag(wordTokensRaw))
 
         # extract text for noun and verb phrases and join together all phrases into a single array
-        phraseTokens = extractChunkText(phraseChunkTreeNp, 'NP') + extractChunkText(phraseChunkTreeVp1, 'VP') + extractChunkText(phraseChunkTreeVp2, 'VP')
+        phraseTokens = extractChunkText(phraseChunkTreeNp, 'NP', namedEntities) + \
+                       extractChunkText(phraseChunkTreeVp1, 'VP', namedEntities) + \
+                       extractChunkText(phraseChunkTreeVp2, 'VP', namedEntities)
 
+        # write outputs to files
         with open('DTMs/' + fileName + '-phrases.txt', 'w') as outFile:
             for phrase in phraseTokens:
-                outFile.write(phrase)
+                outFile.write(phrase.lower())
                 outFile.write('\n')
 
         with open('DTMs/' + fileName + '-words.txt', 'w') as outFile:
             for word in wordTokens:
-                outFile.write(word)
+                outFile.write(word.lower())
                 outFile.write('\n')
 
 
-def extractChunkText(chunkTree, chunkType):
+def extractChunkText(chunkTree, chunkType, namedEntities):
     # get the leaves of the all noun phrase subtrees into arrays
     # credit to https://stackoverflow.com/questions/52021855/nltk-linguistic-tree-traversal-and-extract-noun-phrase-np
     chunkLeaves = [subtree.leaves() for subtree in chunkTree if type(subtree) == Tree and subtree.label() == chunkType]
+
+    NAMED_ENTITY_REPLACEMENT = 'xxx'
 
     # discard the POS tag for each word, join the words of each phrase array into a string
     for i in range(len(chunkLeaves)):
         for j in range(len(chunkLeaves[i])):
             chunkLeaves[i][j] = chunkLeaves[i][j][0]
+            # replace named entities with 'xxx'
+            if chunkLeaves[i][j] in namedEntities:
+                chunkLeaves[i][j] = NAMED_ENTITY_REPLACEMENT
         chunkLeaves[i] = " ".join(chunkLeaves[i])
 
     return chunkLeaves
