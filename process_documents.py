@@ -20,6 +20,7 @@ import logging
 from pdfminer.high_level import extract_text
 import re
 import csv
+import os
 
 # set up logger
 logger = logging.getLogger()
@@ -116,6 +117,11 @@ def main():
         phrasesDtm = dict.fromkeys(phraseTokens, 0)
         for phrase in phraseTokens:
             phrasesDtm[phrase] += 1
+
+        # create a DTMs directory if non existent
+        if not os.path.exists('DTMs'):
+            print("yep")
+            os.makedirs('DTMs')
 
         # write output to files
         with open('DTMs/' + fileName + '-words.csv', 'w') as outFile:
