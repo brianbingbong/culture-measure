@@ -15,7 +15,7 @@ artefacts/artefact2.pdf
 artefacts/artefact2.txt
 ```
 
-To run the script `python process_documents.py <filePaths.txt>`
+To run the pre-processing script, execute: `python process_documents.py <filePaths.txt>`
 
 What will be produced is for each document in the input `.txt` file, a 
 `<document_name>-phrases.csv` and `<document_name>-words.csv` file 
