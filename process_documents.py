@@ -4,9 +4,7 @@ Date: 07/09/2021
 This script takes a txt file containing paths to input files to be preprocessed into document term matrices (TDM). NLP
 techniques applied will be word tokenization, punctuation removal, removal or stopwords, named entity removal,
 lemmatization, case normalisation, parts of speech (POS) tagging, phrase chunking to extract noun and verb
-phrases. The output will be a plain text file.
-containing all extracted phrase tokens.
-
+phrases. The output will be a plain text file containing all extracted phrase tokens.
 TODO: replace numbers with 0 instead of nothing??? maybe
 """
 
