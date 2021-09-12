@@ -23,9 +23,12 @@ import os
 DTM_DIRECTORY = 'DTMs'
 
 # set up logger
-LOGGER = logging.getLogger()
+LOGGER = logging.getLogger(__name__)
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
+# suppress logger for pdfminer
+pdfminerLogger = logging.getLogger('pdfminer')
+pdfminerLogger.setLevel(logging.ERROR)
 
 # Package names needed: 'averaged_perceptron_tagger', 'punkt', 'maxent_ne_chunker', 'words'
 def downloadNLTKPackage(packageName):
@@ -65,16 +68,17 @@ def main():
     chunkPhraseParserVp2 = nltk.RegexpParser(chunkGrammarVp2)
 
     for artefact in artefactFiles:
-        with open(artefact, 'rb') as inFile:
-            fileName = artefact[:-4].split('/')[1]
-
-            if artefact[-4:] == '.pdf':
+        LOGGER.info(f'Processing {artefact}, this may take a while...')
+        fileName = artefact[:-4].split('/')[-1]
+        if artefact[-4:] == '.pdf':
+            with open(artefact, 'rb') as inFile:
                 text = extract_text(inFile)
-            elif artefact[-4:] == '.txt':
+        elif artefact[-4:] == '.txt':
+            with open(artefact, 'r') as inFile:
                 text = inFile.read()
-            else:
-                LOGGER.error(f'{artefact} file type not supported, ensure files are of type .pdf or .txt')
-                exit(1)
+        else:
+            LOGGER.error(f'{artefact} file type not supported, ensure files are of type .pdf or .txt')
+            exit(1)
 
         # remove punctuation
         # credit to: https://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string
