@@ -1,0 +1,169 @@
+artefacts/2020 Global 500 Company Artifacts/Agricultural Bank of China/Agriculture Bank of China AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Agricultural Bank of China/Agriculture Bank of China AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Agricultural Bank of China/Agriculture Bank of China AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Agricultural Bank of China/Agriculture Bank of China AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Agricultural Bank of China/Agriculture Bank Of China M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon LTS 2017.txt
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon LTS 2018.txt
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon LTS 2019.txt
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon LTS 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Amazon.com/Amazon M_V.txt
+artefacts/2020 Global 500 Company Artifacts/AmerisourceBergen/AmerisourceBergen AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/AmerisourceBergen/AmerisourceBergen AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/AmerisourceBergen/AmerisourceBergen AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/AmerisourceBergen/AmerisourceBergen AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/AmerisourceBergen/AmerisourceBergen M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Bank of China/Bank of China AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Bank of China/Bank of China AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Bank of China/Bank of China AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Bank of China/Bank of China AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Bank of China/Bank of China M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Cardinal Health/Cardinal Health AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Cardinal Health/Cardinal Health AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Cardinal Health/Cardinal Health AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Cardinal Health/Cardinal Health AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Cardinal Health/Cardinal Health M_V.txt
+artefacts/2020 Global 500 Company Artifacts/China Life Insurance/China Life Insurance AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/China Life Insurance/China Life Insurance AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/China Life Insurance/China Life Insurance AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/China Life Insurance/China Life Insurance AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/China Life Insurance/China Life Insurance M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast LTS 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast LTS 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast LTS 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast LTS 2020.txt
+artefacts/2020 Global 500 Company Artifacts/Comcast/Comcast M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Costco Wholesale/Costco AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Costco Wholesale/Costco AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Costco Wholesale/Costco AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Costco Wholesale/Costco AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Costco Wholesale/Costco M_V.txt
+artefacts/2020 Global 500 Company Artifacts/CVS Health/CVS Health AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/CVS Health/CVS Health AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/CVS Health/CVS Health AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/CVS Health/CVS Health AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/CVS Health/CVS Health M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Exxon Mobil/ExxonMobil AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Exxon Mobil/ExxonMobil AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Exxon Mobil/ExxonMobil AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Exxon Mobil/ExxonMobil AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Exxon Mobil/ExxonMobil M_S.txt
+artefacts/2020 Global 500 Company Artifacts/FannieMai/FannieMai AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/FannieMai/FannieMai AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/FannieMai/FannieMai AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/FannieMai/FannieMai AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/FannieMai/FannieMai M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Ford Motor/Ford Motor AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Ford Motor/Ford Motor AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Ford Motor/Ford Motor AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Ford Motor/Ford Motor AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Ford Motor/Ford Motor M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Gazprom/Gazprom AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Gazprom/Gazprom AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Gazprom/Gazprom AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Gazprom/Gazprom AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Gazprom/Gazprom LTS 2020.txt
+artefacts/2020 Global 500 Company Artifacts/Gazprom/Gazprom M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Glencore/Glencore AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Glencore/Glencore AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Glencore/Glencore AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Glencore/Glencore AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Glencore/Glencore M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Home Depot/Home Depot AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Home Depot/Home Depot AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Home Depot/Home Depot AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Home Depot/Home Depot AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Home Depot/Home Depot M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Kroger/Kroger AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Kroger/Kroger AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Kroger/Kroger AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Kroger/Kroger AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Kroger/Kroger M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Lukoil/Lukoil AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Lukoil/Lukoil AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Lukoil/Lukoil AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Lukoil/Lukoil AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Lukoil/Lukoil M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft LTS 2020.txt
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle LTS 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle LTS 2020.txt
+artefacts/2020 Global 500 Company Artifacts/Nestle/Nestle M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Phillips 66/Phillips 66 AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Phillips 66/Phillips 66 AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Phillips 66/Phillips 66 AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Phillips 66/Phillips 66 AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Phillips 66/Phillips 66 M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Ping An Insurance/Ping An Insurance AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Ping An Insurance/Ping An Insurance AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Ping An Insurance/Ping An Insurance AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Ping An Insurance/Ping An Insurance AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Ping An Insurance/Ping An Insurance M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Royal Dutch Shell/Shell AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Royal Dutch Shell/Shell AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Royal Dutch Shell/Shell AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Royal Dutch Shell/Shell AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Royal Dutch Shell/Shell LTS 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Royal Dutch Shell/Shell M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung LTS 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung LTS 2020.txt
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung M_V.txt
+artefacts/2020 Global 500 Company Artifacts/TotalSA/Total AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/TotalSA/Total AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/TotalSA/Total AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/TotalSA/Total AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/TotalSA/Total SA M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Trafigura Group/Trafigura Group AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Trafigura Group/Trafigura Group AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Trafigura Group/Trafigura Group AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Trafigura Group/Trafigura Group AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Trafigura Group/Trafigura Group M_V.txt
+artefacts/2020 Global 500 Company Artifacts/UnitedHealth Group/UnitedHealth Group AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/UnitedHealth Group/UnitedHealth Group AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/UnitedHealth Group/UnitedHealth Group AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/UnitedHealth Group/UnitedHealth Group AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/UnitedHealth Group/UnitedHealth Group M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen LTS 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen LTS 2018.txt
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen LTS 2019.txt
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen LTS 2020.txt
+artefacts/2020 Global 500 Company Artifacts/Volkswagen/Volkswagen M_V.txt
+artefacts/2020 Global 500 Company Artifacts/Walgreens Boots Alliance/Walgreens Boots Alliance AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Walgreens Boots Alliance/Walgreens Boots Alliance AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Walgreens Boots Alliance/Walgreens Boots Alliance AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Walgreens Boots Alliance/Walgreens Boots Alliance AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Walgreens Boots Alliance/Walgreens Boots Alliance M_V.txt
