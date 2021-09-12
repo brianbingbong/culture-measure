@@ -1,11 +1,11 @@
 """
 Written by Brian Li Ong
-Date: 07/09/2021
+Date created: 07/09/2021
 This script takes a txt file containing paths to input files to be preprocessed into document term matrices (TDM). NLP
-techniques applied will be word tokenization, punctuation removal, removal or stopwords, named entity removal,
-lemmatization, case normalisation, parts of speech (POS) tagging, phrase chunking to extract noun and verb
-phrases. The output will be a plain text file containing all extracted phrase tokens.
-TODO: replace numbers with 0 instead of nothing??? maybe
+techniques applied will be word tokenization, punctuation/number removal, removal or stopwords, named entity removal,
+lemmatization and case normalisation to extract word tokens. Parts of speech (POS) tagging and phrase chunking is used
+to extract noun and verb phrase tokens. The count of the number of times each word and phrase tokens are summed and
+outputted into <input file name>-words.csv and <input file name>-phrases.csv files.
 """
 
 from nltk.corpus import stopwords
@@ -18,9 +18,12 @@ import logging
 from pdfminer.high_level import extract_text
 import re
 import csv
+import os
+
+DTM_DIRECTORY = 'DTMs'
 
 # set up logger
-logger = logging.getLogger()
+LOGGER = logging.getLogger()
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 
@@ -43,8 +46,8 @@ def main():
     # check that the right number of arguments are given in command line
     arguments = len(sys.argv) - 1
     if (arguments != 1):
-        logger.error("Invalid number of arguments")
-        logger.error("Expected :  " + sys.argv[0] + " <sheetID>")
+        LOGGER.error("Invalid number of arguments")
+        LOGGER.error("Expected :  " + sys.argv[0] + " <sheetID>")
         exit(1)
 
     # get the file names of artefacts to be read
@@ -70,19 +73,22 @@ def main():
             elif artefact[-4:] == '.txt':
                 text = inFile.read()
             else:
-                logger.error(f'{artefact} file type not supported, ensure files are of type .pdf or .txt')
+                LOGGER.error(f'{artefact} file type not supported, ensure files are of type .pdf or .txt')
                 exit(1)
 
         # remove punctuation
         # credit to: https://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string
         text = re.sub(r'[^\w\s]', '', text)
-        # remove numbers
-        text = re.sub(r'[0-9]', '', text)
         # remove underscores
         text = text.replace('_', '')
+        # replace numbers with 0 for processing phrase tokens
+        # remove numbers for processing word tokens
+        NUMBER_REPLACEMENT = '0'
+        textWithNumbers = re.sub(r'[0-9]+', NUMBER_REPLACEMENT, text)
+        textNoNumbers = re.sub(r'[0-9]', '', text)
 
-        wordTokensRaw = word_tokenize(text)
-        wordTokensLemmatized = [lemmatizer.lemmatize(word) for word in wordTokensRaw]
+        wordTokensNoNumbers = word_tokenize(textNoNumbers)
+        wordTokensLemmatized = [lemmatizer.lemmatize(word) for word in wordTokensNoNumbers]
         wordTokens = [word for word in wordTokensLemmatized if word not in stopWords]
 
         namedEntitiesTree = nltk.ne_chunk(nltk.pos_tag(wordTokens))
@@ -92,15 +98,23 @@ def main():
         namedEntities = set([leaf[0][0] for leaf in namedEntitiesTree if type(leaf) == nltk.Tree])
         wordTokens = [leaf[0].lower() for leaf in namedEntitiesTree if type(leaf) != nltk.Tree]
 
+        # create word tokens with numbers
+        wordTokensWithNumbers = word_tokenize(textWithNumbers)
+
         # create chunk tree
-        phraseChunkTreeNp = chunkPhraseParserNp.parse(nltk.pos_tag(wordTokensRaw))
-        phraseChunkTreeVp1 = chunkPhraseParserVp1.parse(nltk.pos_tag(wordTokensRaw))
-        phraseChunkTreeVp2 = chunkPhraseParserVp2.parse(nltk.pos_tag(wordTokensRaw))
+        phraseChunkTreeNp = chunkPhraseParserNp.parse(nltk.pos_tag(wordTokensWithNumbers))
+        phraseChunkTreeVp1 = chunkPhraseParserVp1.parse(nltk.pos_tag(wordTokensWithNumbers))
+        phraseChunkTreeVp2 = chunkPhraseParserVp2.parse(nltk.pos_tag(wordTokensWithNumbers))
 
         # extract text for noun and verb phrases and join together all phrases into a single array
         phraseTokens = extractChunkText(phraseChunkTreeNp, 'NP', namedEntities) + \
                        extractChunkText(phraseChunkTreeVp1, 'VP', namedEntities) + \
                        extractChunkText(phraseChunkTreeVp2, 'VP', namedEntities)
+
+        # create a DTMs directory if it does not exist
+        if not os.path.exists(DTM_DIRECTORY):
+            LOGGER.info('Creating DTMs directory')
+            os.makedirs(DTM_DIRECTORY)
 
         # construct words dtm
         wordsDtm = dict.fromkeys(wordTokens, 0)
@@ -113,19 +127,21 @@ def main():
             phrasesDtm[phrase] += 1
 
         # write output to files
-        with open('DTMs/' + fileName + '-words.csv', 'w') as outFile:
+        with open(f'{DTM_DIRECTORY}/{fileName}-words.csv', 'w') as outFile:
             fieldnames = ['token', 'frequency']
             writer = csv.DictWriter(outFile, fieldnames=fieldnames)
 
+            LOGGER.info(f'Writing word tokens into {fileName}-words.csv')
             writer.writeheader()
             for word in wordsDtm.keys():
                 writer.writerow({'token': word,
                                  'frequency': wordsDtm[word]})
 
-        with open('DTMs/' + fileName + '-phrases.csv', 'w') as outFile:
+        with open(f'{DTM_DIRECTORY}/{fileName}-phrases.csv', 'w') as outFile:
             fieldnames = ['token', 'frequency']
             writer = csv.DictWriter(outFile, fieldnames=fieldnames)
 
+            LOGGER.info(f'Writing phrase tokens into {fileName}-phrases.csv')
             writer.writeheader()
             for phrase in phrasesDtm.keys():
                 writer.writerow({'token': phrase,
