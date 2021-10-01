@@ -50,7 +50,7 @@ def main():
     arguments = len(sys.argv) - 1
     if (arguments != 1):
         LOGGER.error("Invalid number of arguments")
-        LOGGER.error("Expected :  " + sys.argv[0] + " <sheetID>")
+        LOGGER.error("Expected :  " + sys.argv[0] + " <files>")
         exit(1)
 
     # get the file names of artefacts to be read
