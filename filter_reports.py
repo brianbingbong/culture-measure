@@ -5,7 +5,6 @@ TODO: Write some documentation in readme, write a description of the file at the
 import copy
 import logging
 import re
-
 from pdfminer.high_level import extract_text
 import os
 import sys
@@ -60,7 +59,7 @@ def main():
                     filteredParagraphs.append(paragraph)
                     break
 
-        # create a DTMs directory if it does not exist
+        # create a filtered reports directory if it does not exist
         if not os.path.exists(FILTERED_TEXT_DIRECTORY):
             LOGGER.info('Creating directory for filtered reports')
             os.makedirs(FILTERED_TEXT_DIRECTORY)
