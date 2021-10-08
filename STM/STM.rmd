@@ -1,18 +1,18 @@
 ```{r}
+library(tidyverse)
 library(dplyr)
 library(readr)
 ```
 
 ```{r}
 setwd('~/GitHub/culture-measure/DTMs/Agriculture_Bank_of_China')
-myfiles = list.files(pattern="*.csv", full.names = TRUE)
+myfiles = list.files(pattern="*.csv", full.names = FALSE)
 
-myfiles2 <- lapply(myfiles, read.csv2)
 
-myfiles2.df <-   data.frame( X1 = myfiles ) %>%
-            mutate( filename_wo_ext = gsub( ".csv", "", X1 ) ) 
-```
+myfiles2 <- lapply(myfiles, function(x) {
+    t <- read.csv(x)
+    mutate(t, document = gsub( ".csv", "", x ))
+    }) %>%
+  bind_rows
 
-```{r}
-head(myfiles2)
 ```
