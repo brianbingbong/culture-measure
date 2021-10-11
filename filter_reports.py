@@ -66,7 +66,7 @@ def main():
 
         # write output to files
         with open(f'{FILTERED_TEXT_DIRECTORY}/{fileName}-filtered.txt', 'w') as outFile:
-            LOGGER.info(f'Writing filtered report into {fileName}-filtered.csv')
+            LOGGER.info(f'Writing filtered report into {fileName}-filtered.txt')
             for paragraph in filteredParagraphs:
                 outFile.write(paragraph + '\n')
 

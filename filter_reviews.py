@@ -9,7 +9,7 @@ import os
 import sys
 
 FILTERED_TEXT_DIRECTORY = 'filtered_artefacts/reviews'
-FILTER_FIELDS = ['pros', 'cons', 'advice_to_mgmt']
+FILTER_FIELDS = ['pros', 'cons', 'advice_to_mgmt', 'review_title']
 
 # set up logger
 LOGGER = logging.getLogger(__name__)
@@ -18,6 +18,10 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=lo
 # suppress logger for pdfminer
 pdfminerLogger = logging.getLogger('pdfminer')
 pdfminerLogger.setLevel(logging.ERROR)
+
+# credit: https://stackoverflow.com/questions/18682965/python-remove-last-line-from-string
+def removeLastLineFromString(s):
+    return s[:s.rfind('\n')]
 
 def main():
     # check that the right number of arguments are given in command line
@@ -61,6 +65,11 @@ def main():
                             break
                     if keywordFound:
                         break
+
+        # remove the last 3 lines of the cons and advice to management because extra incorrect words are scraped
+        for review in filteredReviews:
+            review['cons'] = removeLastLineFromString(removeLastLineFromString(removeLastLineFromString(removeLastLineFromString(review['cons']))))
+            review['advice_to_mgmt'] = removeLastLineFromString(removeLastLineFromString(removeLastLineFromString(removeLastLineFromString(review['advice_to_mgmt']))))
 
         # create a filtered reviews directory if it does not exist
         if not os.path.exists(FILTERED_TEXT_DIRECTORY):
