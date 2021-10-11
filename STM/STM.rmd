@@ -5,7 +5,6 @@ library(readr)
 ```
 
 ```{r}
-setwd('~/GitHub/culture-measure/DTMs/Agriculture_Bank_of_China')
 myfiles = list.files(pattern="*.csv", full.names = FALSE)
 
 
@@ -15,4 +14,29 @@ myfiles2 <- lapply(myfiles, function(x) {
     }) %>%
   bind_rows
 
+
+```
+
+```{r}
+library(stm)
+processed <- textProcessor(myfiles2$review_text, metadata=myfiles2)
+```
+```{r}
+out <- prepDocuments(processed$documents, processed$vocab, processed$meta)
+docs <- out$documents
+vocab <- out$vocab
+meta <- out$meta
+
+```
+
+```{r}
+vocab
+```
+```{r}
+library(Rcpp)
+First_STM <- stm(documents = out$documents, vocab = out$vocab, K = 6, data = out$meta, init.type = "Spectral", verbose = FALSE)
+```
+
+```{r}
+plot(First_STM)
 ```
