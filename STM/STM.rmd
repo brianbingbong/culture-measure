@@ -2,41 +2,59 @@
 library(tidyverse)
 library(dplyr)
 library(readr)
+library(readtext)
+library(tidytext)
+library(janeaustenr)
 ```
 
 ```{r}
-myfiles = list.files(pattern="*.csv", full.names = FALSE)
+myfiles.list = list.files(pattern="*-filtered.txt", full.names = FALSE)
 
 
-myfiles2 <- lapply(myfiles, function(x) {
-    t <- read.csv(x)
-    mutate(t, document = gsub( ".csv", "", x ))
+myfiles <- lapply(myfiles.list, function(x) {
+    t <- readtext(x)
+    mutate(t, document = gsub( "-filtered.txt", "", x ))
     }) %>%
   bind_rows
 
+tidy_myfiles <- myfiles %>%
+    tidytext::unnest_tokens(word, text) %>%
+    anti_join(stop_words) %>%
+    select(document, word) %>%
+    filter(word != "â")
+tidy_myfiles
+```
 
+
+```{r}
+tidy_myfiles %>% 
+  count(word, sort = TRUE)
+```
+```{r}
+library(quanteda)
+library(stm)
+
+dfm <- tidy_myfiles %>%
+    count(document, word, sort = TRUE) %>%
+    cast_dfm(document, word, n)
+```
+```{r}
+topic_model <- stm(dfm, K = 12, 
+                   verbose = FALSE, init.type = "Spectral")
+```
+
+```{r}
+labelTopics(topic_model)
 ```
 
 ```{r}
 library(stm)
-processed <- textProcessor(myfiles2$review_text, metadata=myfiles2)
+processed <- textProcessor(df1$review_text)
 ```
+
 ```{r}
-out <- prepDocuments(processed$documents, processed$vocab, processed$meta)
+out <- prepDocuments(processed$documents, processed$vocab)
 docs <- out$documents
 vocab <- out$vocab
-meta <- out$meta
 
-```
-
-```{r}
-vocab
-```
-```{r}
-library(Rcpp)
-First_STM <- stm(documents = out$documents, vocab = out$vocab, K = 6, data = out$meta, init.type = "Spectral", verbose = FALSE)
-```
-
-```{r}
-plot(First_STM)
 ```
