@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: annual, report, text, march, reporting, financial, international 
+ 	 FREX: annual, report, text, march, reporting, financial, international 
+ 	 Lift: annual, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: annual, creation, integrated, tions, visit, policy, net 
+Topic 2 Top Words:
+ 	 Highest Prob: subsidiaries, fiscal, ifrs, limited, reporting, 2017, ten 
+ 	 FREX: publicly, fujitsuâ, basis, social, investment, provide, established 
+ 	 Lift: 19, 2021, advice, applications, board, candidate, ceo 
+ 	 Score: 19, publicly, listed, materials, research, riken, supercomputer 
+Topic 3 Top Words:
+ 	 Highest Prob: business, security, â, customers, sdgs, services, mobile 
+ 	 FREX: sdgs, mobile, phone, cyber, pc, 2016, achieving 
+ 	 Lift: mobile, phone, 1,025.7, 1.5, 11, 14, 14,000 
+ 	 Score: sdgs, mobile, phone, 1,025.7, services, cyber, pc 
+Topic 4 Top Words:
+ 	 Highest Prob: business, management, employees, services, company, direction, network 
+ 	 FREX: customer, developing, dx, direction, network, employees, demand 
+ 	 Lift: 2008, 5g, ability, action, activity, actualize, adapt 
+ 	 Score: 2008, employees, services, customer, developing, dx, direction 
+Topic 5 Top Words:
+ 	 Highest Prob: conversion, report, text, march, reporting, financial, international 
+ 	 FREX: conversion, report, text, march, reporting, financial, international 
+ 	 Lift: conversion, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: conversion, creation, integrated, tions, visit, policy, net 
+Topic 6 Top Words:
+ 	 Highest Prob: disclose, report, text, march, reporting, financial, international 
+ 	 FREX: disclose, report, text, march, reporting, financial, international 
+ 	 Lift: disclose, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: disclose, creation, integrated, tions, visit, policy, net 
+Topic 7 Top Words:
+ 	 Highest Prob: subsidiaries, fiscal, ifrs, limited, reporting, 2017, ten 
+ 	 FREX: publicly, fujitsuâ, basis, social, investment, provide, established 
+ 	 Lift: 2013, gradually, 2021, advice, applications, board, candidate 
+ 	 Score: 2013, publicly, gradually, listed, materials, research, riken 
+Topic 8 Top Words:
+ 	 Highest Prob: evalua, report, text, march, reporting, financial, international 
+ 	 FREX: evalua, report, text, march, reporting, financial, international 
+ 	 Lift: evalua, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: evalua, creation, integrated, tions, visit, policy, net 
+Topic 9 Top Words:
+ 	 Highest Prob: editing, report, text, march, reporting, financial, international 
+ 	 FREX: editing, report, text, march, reporting, financial, international 
+ 	 Lift: editing, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: editing, creation, integrated, tions, visit, policy, net 
+Topic 10 Top Words:
+ 	 Highest Prob: guidelines, report, text, march, reporting, financial, international 
+ 	 FREX: guidelines, report, text, march, reporting, financial, international 
+ 	 Lift: guidelines, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: guidelines, creation, integrated, tions, visit, policy, net 
+Topic 11 Top Words:
+ 	 Highest Prob: evaluated, report, text, march, reporting, financial, international 
+ 	 FREX: evaluated, report, text, march, reporting, financial, international 
+ 	 Lift: evaluated, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: evaluated, creation, integrated, tions, visit, policy, net 
+Topic 12 Top Words:
+ 	 Highest Prob: individually, report, text, 2017, company, ten, fiscal 
+ 	 FREX: individually, report, text, 2017, company, ten, fiscal 
+ 	 Lift: individually, laterâ, meeting, municate, œco, office, postponed 
+ 	 Score: individually, policy, creation, integrated, tions, visit, range 

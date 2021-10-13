@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: customers, products, business, statements, company, services, customer 
+ 	 FREX: customer, obligations, licenses, 2018, customers, products, business 
+ 	 Lift: 60, aggregate, agree, agreed, approximates, arrangement, assert 
+ 	 Score: 60, obligations, licenses, 2018, note, asserted, remediation 
+Topic 2 Top Words:
+ 	 Highest Prob: customers, business, statements, time, forward, products, company 
+ 	 FREX: 19, covid, u.s, 2020, fourth, pandemic, fair 
+ 	 Lift: 0.1, 1.1, 19, 2029, 4.875, anticipate, bilateral 
+ 	 Score: 0.1, 19, covid, 2020, fourth, pandemic, billion 
+Topic 3 Top Words:
+ 	 Highest Prob: business, customers, company, financial, statements, manufacturing, products 
+ 	 FREX: proposed, 2019, fair, reporting, goodwill, flex, constitution 
+ 	 Lift: 04, 20, 2000, 58, 75, 80s, 90s 
+ 	 Score: 04, goodwill, assumptions, 2019, seal, alterations, annex 
+Topic 4 Top Words:
+ 	 Highest Prob: business, customers, services, results, statements, products, future 
+ 	 FREX: term, 2017, obligations, flex, transformation, businesses, portfolio 
+ 	 Lift: 1.9, 2015, accommodate, accrue, active, adoption, aggressive 
+ 	 Score: 1.9, incentive, continued, comparisons, yield, transformation, obligations 
+Topic 5 Top Words:
+ 	 Highest Prob: customers, products, business, statements, company, services, customer 
+ 	 FREX: customer, obligations, licenses, 2018, customers, products, business 
+ 	 Lift: 69.2, aggregate, agree, agreed, approximates, arrangement, assert 
+ 	 Score: 69.2, obligations, licenses, 2018, note, asserted, remediation 
+Topic 6 Top Words:
+ 	 Highest Prob: business, customers, services, results, statements, products, future 
+ 	 FREX: term, 2017, obligations, flex, transformation, businesses, portfolio 
+ 	 Lift: 14.3, 2015, barbier, bonus, collier, contributions, cycles 
+ 	 Score: 14.3, incentive, continued, comparisons, yield, transformation, obligations 
+Topic 7 Top Words:
+ 	 Highest Prob: business, customers, company, financial, statements, manufacturing, products 
+ 	 FREX: proposed, 2019, fair, reporting, goodwill, flex, constitution 
+ 	 Lift: 124, 20, 2000, 58, 75, 80s, 90s 
+ 	 Score: 124, goodwill, assumptions, 2019, seal, alterations, annex 
+Topic 8 Top Words:
+ 	 Highest Prob: customers, products, business, statements, company, services, customer 
+ 	 FREX: customer, obligations, licenses, 2018, customers, products, business 
+ 	 Lift: 98.6, aggregate, agree, agreed, approximates, arrangement, assert 
+ 	 Score: 98.6, obligations, licenses, 2018, note, asserted, remediation 
+Topic 9 Top Words:
+ 	 Highest Prob: business, customers, services, results, statements, products, future 
+ 	 FREX: term, 2017, obligations, flex, transformation, businesses, portfolio 
+ 	 Lift: 150, 2015, accommodate, accrue, active, adoption, aggressive 
+ 	 Score: 150, incentive, continued, comparisons, yield, transformation, obligations 
+Topic 10 Top Words:
+ 	 Highest Prob: customers, products, business, statements, company, services, customer 
+ 	 FREX: customer, obligations, licenses, 2018, customers, products, business 
+ 	 Lift: affirmative, aggregate, agree, agreed, approximates, arrangement, assert 
+ 	 Score: affirmative, obligations, licenses, 2018, note, asserted, remediation 
+Topic 11 Top Words:
+ 	 Highest Prob: business, customers, company, financial, statements, manufacturing, products 
+ 	 FREX: proposed, 2019, fair, reporting, goodwill, flex, constitution 
+ 	 Lift: 1994, 20, 2000, 58, 75, 80s, 90s 
+ 	 Score: 1994, goodwill, assumptions, 2019, seal, alterations, annex 
+Topic 12 Top Words:
+ 	 Highest Prob: 7.2, business, customers, services, statements, results, products 
+ 	 FREX: term, 2017, obligations, flex, transformation, businesses, portfolio 
+ 	 Lift: 7.2, transformation, 2015, accommodate, accrue, active, adoption 
+ 	 Score: 7.2, continued, incentive, obligations, transformation, returns, comparisons 

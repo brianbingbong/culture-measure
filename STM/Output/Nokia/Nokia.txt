@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: 16, asia, august, aviat, balance, board, flow 
+ 	 Score: 16, board, shareholders, policy, ceo, remuneration, agm 
+Topic 2 Top Words:
+ 	 Highest Prob: business, nokia, products, services, including, global, licensing 
+ 	 FREX: consumer, digital, emissions, hmd, delivery, devices, agreement 
+ 	 Lift: consumer, digital, emissions, hmd, 1099â, 120, 154 
+ 	 Score: 1099â, employees, consumer, digital, emissions, hmd, result 
+Topic 3 Top Words:
+ 	 Highest Prob: customer, services, business, price, technology, license, revenue 
+ 	 FREX: employees, hedged, exposures, ability, suppliers, result, trading 
+ 	 Lift: 2025, 23, 90, address, ads, advantage, algeria 
+ 	 Score: 2025, employees, suppliers, exposures, ability, result, trading 
+Topic 4 Top Words:
+ 	 Highest Prob: business, services, customer, revenue, performance, company, future 
+ 	 FREX: bank, targets, components, countries, operations, suppliers, local 
+ 	 Lift: 21.1, 30, 34, 46, 499, 59, 627 
+ 	 Score: 21.1, bank, suppliers, components, ability, employees, targets 
+Topic 5 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: account, asia, august, aviat, balance, board, flow 
+ 	 Score: account, board, shareholders, policy, ceo, remuneration, agm 
+Topic 6 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: admirable, asia, august, aviat, balance, flow, fortunes 
+ 	 Score: admirable, board, shareholders, policy, ceo, remuneration, agm 
+Topic 7 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: adopter, acknowledged, adopt, amendments, candidates, dynamics, enterprise 
+ 	 Score: adopter, board, shareholders, policy, ceo, remuneration, agm 
+Topic 8 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: advisor, agm, asia, august, aviat, balance, board 
+ 	 Score: advisor, board, shareholders, policy, ceo, remuneration, agm 
+Topic 9 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: africa, ceragon, challenging, chosen, closely, conducted, consistent 
+ 	 Score: africa, board, shareholders, policy, ceo, remuneration, agm 
+Topic 10 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: airspan, acknowledged, adopt, amendments, asia, august, aviat 
+ 	 Score: airspan, board, shareholders, policy, ceo, remuneration, agm 
+Topic 11 Top Words:
+ 	 Highest Prob: performance, market, revenue, customer, 2019, recognized, business 
+ 	 FREX: performance, market, revenue, customer, 2019, recognized, business 
+ 	 Lift: altiostar, agm, ceo, ceragon, challenging, chosen, closely 
+ 	 Score: altiostar, board, shareholders, policy, ceo, remuneration, agm 
+Topic 12 Top Words:
+ 	 Highest Prob: appoint, performance, market, revenue, customer, 2019, recognized 
+ 	 FREX: appoint, performance, market, revenue, customer, 2019, recognized 
+ 	 Lift: appoint, ceragon, challenging, chosen, closely, conducted, consistent 
+ 	 Score: appoint, board, shareholders, policy, ceo, remuneration, agm 

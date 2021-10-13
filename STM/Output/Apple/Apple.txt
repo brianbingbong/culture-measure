@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: companyâ, company, content, products, components, competitors, product 
+ 	 FREX: business, lease, retail, companyâ, company, content, products 
+ 	 Lift: 2020, lease, 19, bases, center, channel, closed 
+ 	 Score: 2020, lease, retail, 19, center, corporate, covid 
+Topic 2 Top Words:
+ 	 Highest Prob: companyâ, company, sales, products, content, revenue, hardware 
+ 	 FREX: revenue, price, recognizes, accordance, accounting, bundled, collection 
+ 	 Lift: localization, single, price, recognizes, 150, accessories, accordance 
+ 	 Score: revenue, localization, price, recognizes, accordance, accounting, bundled 
+Topic 3 Top Words:
+ 	 Highest Prob: company, companyâ, statements, products, forward, content, components 
+ 	 FREX: fiscal, periods, company, companyâ, statements, products, forward 
+ 	 Lift: 20, beginning, california, contract, court, demanded, qualcomm 
+ 	 Score: 20, qualcomm, fiscal, months, quarters, stated, periods 
+Topic 4 Top Words:
+ 	 Highest Prob: companyâ, company, sales, products, content, product, components 
+ 	 FREX: revenue, currency, ios, support, price, recognizes, exchange 
+ 	 Lift: ac, accidental, activity, additional, additionally, advantages, antidumping 
+ 	 Score: revenue, accidental, currency, price, recognizes, ios, support 
+Topic 5 Top Words:
+ 	 Highest Prob: company, companyâ, statements, products, forward, content, components 
+ 	 FREX: fiscal, periods, company, companyâ, statements, products, forward 
+ 	 Lift: accompanying, beginning, california, contract, court, demanded, lawsuit 
+ 	 Score: accompanying, qualcomm, fiscal, months, quarters, stated, periods 
+Topic 6 Top Words:
+ 	 Highest Prob: companyâ, company, content, products, components, competitors, product 
+ 	 FREX: business, lease, retail, companyâ, company, content, products 
+ 	 Lift: account, 19, center, corporate, covid, facilities, health 
+ 	 Score: account, lease, retail, 19, center, corporate, covid 
+Topic 7 Top Words:
+ 	 Highest Prob: company, companyâ, statements, products, forward, content, components 
+ 	 FREX: fiscal, periods, company, companyâ, statements, products, forward 
+ 	 Lift: affiliated, beginning, california, contract, court, demanded, qualcomm 
+ 	 Score: affiliated, qualcomm, fiscal, quarters, stated, months, periods 
+Topic 8 Top Words:
+ 	 Highest Prob: companyâ, company, content, products, components, competitors, product 
+ 	 FREX: business, lease, retail, companyâ, company, content, products 
+ 	 Lift: acquisitions, 19, bases, center, channel, closed, combine 
+ 	 Score: acquisitions, lease, retail, 19, center, corporate, covid 
+Topic 9 Top Words:
+ 	 Highest Prob: company, companyâ, statements, products, forward, content, components 
+ 	 FREX: fiscal, periods, company, companyâ, statements, products, forward 
+ 	 Lift: infringement, 2017, district, enjoin, filed, lawsuit, qualcomm 
+ 	 Score: infringement, qualcomm, fiscal, quarters, stated, months, periods 
+Topic 10 Top Words:
+ 	 Highest Prob: companyâ, company, content, products, components, competitors, product 
+ 	 FREX: business, lease, retail, companyâ, company, content, products 
+ 	 Lift: aspects, bases, channel, closed, combine, continues, elected 
+ 	 Score: aspects, lease, retail, 19, center, corporate, covid 
+Topic 11 Top Words:
+ 	 Highest Prob: company, companyâ, statements, products, forward, content, components 
+ 	 FREX: fiscal, periods, company, companyâ, statements, products, forward 
+ 	 Lift: affiliates, beginning, california, contract, court, demanded, january 
+ 	 Score: affiliates, qualcomm, fiscal, months, quarters, stated, periods 
+Topic 12 Top Words:
+ 	 Highest Prob: company, companyâ, exceeding, content, products, components, statements 
+ 	 FREX: business, retail, company, companyâ, exceeding, content, products 
+ 	 Lift: exceeding, stores, companies, impact, subject, technology, adverse 
+ 	 Score: exceeding, lease, retail, majority, data, 19, center 

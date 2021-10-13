@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: services, business, software, conduct, primarily, support, information 
+ 	 FREX: services, business, software, conduct, primarily, support, information 
+ 	 Lift: 2003, ruble, russia, safeguards, sectors, skim, society 
+ 	 Score: 2003, payment, improve, models, receivables, ecb, professional 
+Topic 2 Top Words:
+ 	 Highest Prob: services, products, business, cloud, software, standards, customer 
+ 	 FREX: 2020, million, identified, france, 2019, half, soc 
+ 	 Lift: 10012, 13, 19.4, 2, 2020, 22.7, 22301 
+ 	 Score: 10012, 2020, million, france, identified, half, soc 
+Topic 3 Top Words:
+ 	 Highest Prob: qualtrics, services, customer, business, experience, 2019, segment 
+ 	 FREX: qualtrics, segment, 2019, experience, functions, china, incursions 
+ 	 Lift: 1.2, 23, acquisition, added, administration, affecting, ahead 
+ 	 Score: 1.2, qualtrics, segment, functions, 2019, 23, acquisition 
+Topic 4 Top Words:
+ 	 Highest Prob: services, business, software, data, support, information, conduct 
+ 	 FREX: services, business, software, data, support, information, conduct 
+ 	 Lift: 25, 31, activities, address, addressed, african, agents 
+ 	 Score: 25, feedback, gdpr, laws, disruption, contracts, digital 
+Topic 5 Top Words:
+ 	 Highest Prob: services, business, software, conduct, primarily, support, information 
+ 	 FREX: services, business, software, conduct, primarily, support, information 
+ 	 Lift: absorption, age, allowance, application, applies, attributes, bad 
+ 	 Score: absorption, payment, improve, models, receivables, ecb, professional 
+Topic 6 Top Words:
+ 	 Highest Prob: services, business, software, data, support, information, conduct 
+ 	 FREX: services, business, software, data, support, information, conduct 
+ 	 Lift: valuable, disruption, feedback, gdpr, rigorous, sales, south 
+ 	 Score: valuable, feedback, gdpr, laws, disruption, contracts, digital 
+Topic 7 Top Words:
+ 	 Highest Prob: services, products, business, cloud, software, standards, customer 
+ 	 FREX: 2020, million, identified, france, 2019, soc, half 
+ 	 Lift: regionâ, 4,110, 4,541, c5, committee, contacts, contractually 
+ 	 Score: regionâ, 2020, million, france, identified, soc, half 
+Topic 8 Top Words:
+ 	 Highest Prob: qualtrics, services, customer, business, experience, 2019, segment 
+ 	 FREX: qualtrics, segment, 2019, experience, functions, china, incursions 
+ 	 Lift: 2022, added, administration, affecting, ahead, america, announced 
+ 	 Score: 2022, qualtrics, segment, functions, 2019, 23, acquisition 
+Topic 9 Top Words:
+ 	 Highest Prob: services, business, software, conduct, primarily, support, information 
+ 	 FREX: services, business, software, conduct, primarily, support, information 
+ 	 Lift: accelerate, age, allowance, application, applies, attributes, bad 
+ 	 Score: accelerate, payment, improve, models, receivables, ecb, professional 
+Topic 10 Top Words:
+ 	 Highest Prob: services, business, software, data, support, information, conduct 
+ 	 FREX: services, business, software, data, support, information, conduct 
+ 	 Lift: violent, disruption, feedback, gdpr, rigorous, sales, south 
+ 	 Score: violent, feedback, gdpr, laws, disruption, contracts, digital 
+Topic 11 Top Words:
+ 	 Highest Prob: services, business, software, conduct, primarily, support, information 
+ 	 FREX: services, business, software, conduct, primarily, support, information 
+ 	 Lift: adopted, allowance, application, applies, attributes, bad, basic 
+ 	 Score: adopted, payment, improve, models, receivables, ecb, professional 
+Topic 12 Top Words:
+ 	 Highest Prob: regional, services, products, business, cloud, software, standards 
+ 	 FREX: identified, 2020, million, incursions, france, soc, half 
+ 	 Lift: regional, continue, agreements, systems, cloud, investment, challenging 
+ 	 Score: regional, 2020, million, cybersecurity, identified, contracts, provide 

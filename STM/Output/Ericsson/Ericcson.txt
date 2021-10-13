@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: business, financial, products, risks, operating, adverse, results 
+ 	 FREX: sanctions, 2017, code, ltv, policy, corporate, 2018 
+ 	 Lift: 11,890, 17, 2016, 22.5, 27, 30, 360 
+ 	 Score: 11,890, sanctions, ltv, 2017, code, cus, plan 
+Topic 2 Top Words:
+ 	 Highest Prob: products, business, share, market, price, services, customers 
+ 	 FREX: contract, revenue, days, products, business, share, market 
+ 	 Lift: 1.24, avail, distance, enterprise, initia, invest, relation 
+ 	 Score: 1.24, contract, revenue, telecom, vulnerabilities, days, forfeited 
+Topic 3 Top Words:
+ 	 Highest Prob: customers, business, products, services, financial, ericsson, market 
+ 	 FREX: patents, trial, sekâ, u.s, days, contract, district 
+ 	 Lift: 0.3, 102, 21.3, 210.8, 210â, 220, 23,000 
+ 	 Score: 0.3, trial, patents, sekâ, appeal, district, 2018 
+Topic 4 Top Words:
+ 	 Highest Prob: business, products, customers, financial, 2019, ericsson, price 
+ 	 FREX: 2019, compliance, contract, subscriptions, code, corporate, lawsuits 
+ 	 Lift: 0.2, 1.11, 1.5, 150, 167, 2g, 31 
+ 	 Score: 0.2, 2019, subscriptions, lawsuits, compliance, technology, broadband 
+Topic 5 Top Words:
+ 	 Highest Prob: products, business, share, market, price, services, customers 
+ 	 FREX: contract, revenue, days, products, business, share, market 
+ 	 Lift: 2030, 700, accept, achievements, activation, addressed, adopted 
+ 	 Score: 2030, contract, revenue, telecom, vulnerabilities, days, forfeited 
+Topic 6 Top Words:
+ 	 Highest Prob: business, financial, products, risks, operating, adverse, results 
+ 	 FREX: sanctions, 2017, code, ltv, policy, corporate, 2018 
+ 	 Lift: 15, ltv, 17, 2016, 22.5, 27, 30 
+ 	 Score: 15, sanctions, ltv, 2017, code, cus, plan 
+Topic 7 Top Words:
+ 	 Highest Prob: products, business, share, market, price, services, customers 
+ 	 FREX: contract, revenue, days, products, business, share, market 
+ 	 Lift: 5, initia, invest, relation, segment, ties, tives 
+ 	 Score: 5, contract, revenue, telecom, vulnerabilities, days, forfeited 
+Topic 8 Top Words:
+ 	 Highest Prob: customers, business, products, services, financial, ericsson, market 
+ 	 FREX: patents, trial, sekâ, u.s, days, contract, district 
+ 	 Lift: œtar, 0.5, dam, depletion, descoping, determine, developing 
+ 	 Score: œtar, trial, patents, sekâ, appeal, district, 2018 
+Topic 9 Top Words:
+ 	 Highest Prob: business, financial, products, risks, operating, adverse, results 
+ 	 FREX: sanctions, 2017, code, ltv, policy, corporate, 2018 
+ 	 Lift: 20,000, 17, 2016, 22.5, 27, 30, 360 
+ 	 Score: 20,000, sanctions, ltv, 2017, code, cus, plan 
+Topic 10 Top Words:
+ 	 Highest Prob: products, business, share, market, price, services, customers 
+ 	 FREX: contract, revenue, days, products, business, share, market 
+ 	 Lift: 60â, initia, invest, relation, segment, ties, tives 
+ 	 Score: 60â, contract, revenue, telecom, vulnerabilities, days, forfeited 
+Topic 11 Top Words:
+ 	 Highest Prob: products, business, share, market, price, services, customers 
+ 	 FREX: contract, revenue, days, products, business, share, market 
+ 	 Lift: 62, 700, accept, achievements, activation, addressed, adopted 
+ 	 Score: 62, contract, revenue, telecom, vulnerabilities, days, forfeited 
+Topic 12 Top Words:
+ 	 Highest Prob: 2007, business, products, financial, adverse, results, operating 
+ 	 FREX: 2017, sanctions, code, policy, corporate, ltv, compliance 
+ 	 Lift: 2007, sanctions, policy, 2017, january, restrictions, reduction 
+ 	 Score: 2007, sanctions, 2017, ltv, code, policy, cus 

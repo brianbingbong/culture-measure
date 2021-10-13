@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: 24, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: 24, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: 24, improving, increase, isocell, owners, sharply, 2021 
+ 	 Score: 24, 2021, 2020, generation, units, analytics, strategy 
+Topic 2 Top Words:
+ 	 Highest Prob: company, court, ifrs, korean, financial, accounting, lease 
+ 	 FREX: ifrs, korean, lease, 1109, instruments, hedge, application 
+ 	 Lift: 1008, 1109, 12, 125, 2027, 2104, 2122 
+ 	 Score: korean, ifrs, company, lease, court, 1109, instruments 
+Topic 3 Top Words:
+ 	 Highest Prob: president, vice, 1, service, company, 2019, suspended 
+ 	 FREX: president, vice, suspended, chairman, executive, sentence, samsung 
+ 	 Lift: 0.5, 100, 14, 155, 160, 21, 28 
+ 	 Score: president, vice, 0.5, suspended, chairman, company, 2019 
+Topic 4 Top Words:
+ 	 Highest Prob: court, company, statements, 2018, financial, performance, forward 
+ 	 FREX: 2018, 2014, appellate, appleâ, banc, en, court 
+ 	 Lift: 15, 78, 79, accelerate, commercialization, preparing, 2018 
+ 	 Score: 15, court, company, 2016, appellate, appleâ, banc 
+Topic 5 Top Words:
+ 	 Highest Prob: 270, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: 270, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: 270, improving, increase, isocell, owners, sharply, 2021 
+ 	 Score: 270, 2021, 2020, generation, units, analytics, strategy 
+Topic 6 Top Words:
+ 	 Highest Prob: 50, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: 50, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: 50, improving, increase, isocell, owners, sharply, 2021 
+ 	 Score: 50, 2021, 2020, generation, units, analytics, strategy 
+Topic 7 Top Words:
+ 	 Highest Prob: 52, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: 52, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: 52, improving, increase, isocell, owners, sharply, 2021 
+ 	 Score: 52, 2021, 2020, generation, units, analytics, strategy 
+Topic 8 Top Words:
+ 	 Highest Prob: 59, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: 59, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: 59, improving, increase, isocell, owners, sharply, 2021 
+ 	 Score: 59, 2021, 2020, generation, units, analytics, strategy 
+Topic 9 Top Words:
+ 	 Highest Prob: 610, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: 610, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: 610, 2021, improving, increase, isocell, owners, sharply 
+ 	 Score: 610, 2021, 2020, generation, units, analytics, strategy 
+Topic 10 Top Words:
+ 	 Highest Prob: foldable, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: foldable, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: foldable, 2021, improving, increase, isocell, owners, sharply 
+ 	 Score: foldable, 2021, 2020, generation, units, analytics, strategy 
+Topic 11 Top Words:
+ 	 Highest Prob: im, statements, performance, forward, 2020, mobile, future 
+ 	 FREX: im, statements, performance, forward, 2020, mobile, future 
+ 	 Lift: im, 2021, improving, increase, isocell, owners, sharply 
+ 	 Score: im, 2021, 2020, generation, units, analytics, strategy 
+Topic 12 Top Words:
+ 	 Highest Prob: image, statements, forward, performance, future, mobile, financial 
+ 	 FREX: image, statements, forward, performance, future, mobile, financial 
+ 	 Lift: image, units, 2020, 2021, improving, increase, isocell 
+ 	 Score: image, 2020, 2021, generation, analytics, strategy, units 

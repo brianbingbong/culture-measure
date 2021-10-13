@@ -5,6 +5,7 @@ library(readr)
 library(readtext)
 library(tidytext)
 library(janeaustenr)
+library(stm)
 ```
 
 ```{r}
@@ -16,45 +17,51 @@ myfiles <- lapply(myfiles.list, function(x) {
     mutate(t, document = gsub( "-filtered.txt", "", x ))
     }) %>%
   bind_rows
+```
 
+```{r}
 tidy_myfiles <- myfiles %>%
     tidytext::unnest_tokens(word, text) %>%
     anti_join(stop_words) %>%
     select(document, word) %>%
-    filter(word != "â")
-tidy_myfiles
-```
+    filter(word != 'â')%>%
+    filter(word != 'sap')
 
-
-```{r}
 tidy_myfiles %>% 
   count(word, sort = TRUE)
 ```
+
+```{r}
+myfiles_tf_idf <- tidy_myfiles %>%
+    count(document, word, sort = TRUE) %>%
+    bind_tf_idf(word, document, n) %>%
+    arrange(-tf_idf) %>%
+    group_by(document) %>%
+    top_n(10) %>%
+    ungroup
+```
+```{r}
+myfiles_tf_idf %>%
+    mutate(word = reorder_within(word, tf_idf, document)) %>%
+    ggplot(aes(word, tf_idf, fill = document)) +
+    geom_col(alpha = 0.8, show.legend = FALSE) +
+    facet_wrap(~ document, scales = "free", ncol = 4) +
+    scale_x_reordered() +
+    coord_flip() +
+    theme(strip.text=element_text(size=8)) +
+    labs(x = NULL, y = "tf-idf",
+         title = "Highest tf-idf words in SAP annual reports from 2017-2020")
+```
+
+
 ```{r}
 library(quanteda)
-library(stm)
 
 dfm <- tidy_myfiles %>%
     count(document, word, sort = TRUE) %>%
     cast_dfm(document, word, n)
-```
-```{r}
 topic_model <- stm(dfm, K = 12, 
                    verbose = FALSE, init.type = "Spectral")
-```
 
-```{r}
 labelTopics(topic_model)
-```
-
-```{r}
-library(stm)
-processed <- textProcessor(df1$review_text)
-```
-
-```{r}
-out <- prepDocuments(processed$documents, processed$vocab)
-docs <- out$documents
-vocab <- out$vocab
-
 ```
