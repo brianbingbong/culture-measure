@@ -1,0 +1,147 @@
+artefacts/2020 Global 500 Company Artifacts/Apple/Apple AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Apple/Apple AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Apple/Apple AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Apple/Apple AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Alphabet/Alphabet AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Huawei/Huawei AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Microsoft/Microsoft AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Samsung/Samsung AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Canon/Canon AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Canon/Canon AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Canon/Canon AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Canon/Canon AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/China Electronics/China Electronics AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/China Electronics/China Electronics AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/China Electronics/China Electronics AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/China Electronics/China Electronics AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Cisco/Cisco AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Cisco/Cisco AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Cisco/Cisco AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Cisco/Cisco AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Compal Electronics/Compal Electronics AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Compal Electronics/Compal Electronics AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Compal Electronics/Compal Electronics AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Compal Electronics/Compal Electronics AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Dell/Dell AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Dell/Dell AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Dell/Dell AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Dell/Dell AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Ericsson/Ericsson AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Ericsson/Ericsson AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Ericsson/Ericsson AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Ericsson/Ericsson AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Facebook/Facebook AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Facebook/Facebook AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Facebook/Facebook AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Facebook/Facebook AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Flex/Flex AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Flex/Flex AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Flex/Flex AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Flex/Flex AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Fujitsu/Fujitsu AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Fujitsu/Fujitsu AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Fujitsu/Fujitsu AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Fujitsu/Fujitsu AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Hewlett Packard Enterprise/Hewlett Packard Enterprise AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Hewlett Packard Enterprise/Hewlett Packard Enterprise AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Hewlett Packard Enterprise/Hewlett Packard Enterprise AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Hewlett Packard Enterprise/Hewlett Packard Enterprise AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Hitachi/Hitachi AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Hitachi/Hitachi AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Hitachi/Hitachi AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Hitachi/Hitachi AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Hon Hai/Hon Hai AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Hon Hai/Hon Hai AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Hon Hai/Hon Hai AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Hon Hai/Hon Hai AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/IBM/IBM AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/IBM/IBM AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/IBM/IBM AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/IBM/IBM AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Intel/Intel AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Intel/Intel AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Intel/Intel AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Intel/Intel AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Jabil/Jabil AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Jabil/Jabil AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Jabil/Jabil AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Jabil/Jabil AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Lenovo/Lenovo AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Lenovo/Lenovo AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Lenovo/Lenovo AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Lenovo/Lenovo AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/LG/LG AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/LG/LG AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/LG/LG AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/LG/LG AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Micron Technology/Micron Technology AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Micron Technology/Micron Technology AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Micron Technology/Micron Technology AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Micron Technology/Micron Technology AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Nokia/Nokia AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Nokia/Nokia AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Nokia/Nokia AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Nokia/Nokia AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Oracle/Oracle AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Oracle/Oracle AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Oracle/Oracle AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Oracle/Oracle AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Panasonic/Panasonic AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Panasonic/Panasonic AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Panasonic/Panasonic AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Panasonic/Panasonic AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Pegatron/Pegatron AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Pegatron/Pegatron AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Pegatron/Pegatron AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Pegatron/Pegatron AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Quanta Computer/Quanta Computer AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Quanta Computer/Quanta Computer AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Quanta Computer/Quanta Computer AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Quanta Computer/Quanta Computer AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/SAP/SAP AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/SAP/SAP AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/SAP/SAP AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/SAP/SAP AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/SK Hynix/SK Hynix AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/SK Hynix/SK Hynix AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/SK Hynix/SK Hynix AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/SK Hynix/SK Hynix AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Sony/Sony AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Sony/Sony AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Sony/Sony AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Sony/Sony AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Tencent Holdings/Tencent Holdings AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Tencent Holdings/Tencent Holdings AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Tencent Holdings/Tencent Holdings AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Tencent Holdings/Tencent Holdings AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Thermo Fisher Scientific/Thermo Fisher Scientific AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Thermo Fisher Scientific/Thermo Fisher Scientific AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Thermo Fisher Scientific/Thermo Fisher Scientific AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Thermo Fisher Scientific/Thermo Fisher Scientific AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/TMSC/TMSC AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/TMSC/TMSC AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/TMSC/TMSC AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/TMSC/TMSC AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Toshiba/Toshiba AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Toshiba/Toshiba AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Toshiba/Toshiba AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Toshiba/Toshiba AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Wistron/Wistron AR 2017.pdf
+artefacts/2020 Global 500 Company Artifacts/Wistron/Wistron AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Wistron/Wistron AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Wistron/Wistron AR 2020.pdf
+artefacts/2020 Global 500 Company Artifacts/Xiaomi/Xiaomi AR 2018.pdf
+artefacts/2020 Global 500 Company Artifacts/Xiaomi/Xiaomi AR 2019.pdf
+artefacts/2020 Global 500 Company Artifacts/Xiaomi/Xiaomi AR 2020.pdf
