@@ -42,9 +42,13 @@ The data joining script joins specified text fields in Glassdoor reviews into a 
 easier processing. Joined text will be placed into a new column in a `.csv` file called `review_text`.  
 To specify the review fields to be joined, modify the `JOIN_FIELDS` constant within the file.  
 
-To run the `join_review_text.py` script, execute: `python join_review_text.py <filePaths.txt>`. It is recommended
-to run the join script post filtering.  
-Output files will be written into a `joined_reviews/` directory
+To run the `join_review_text.py` script, execute: `python join_review_text.py <filePaths.txt>`.
+<br>  
+The `files.txt` script format is the same as the ones used for the filtering scripts.
+Output files will be written into a `joined_reviews/` directory.
+<br>  
+It is recommended to run the join script post filtering.  
+
 
 
 ### STM Application
