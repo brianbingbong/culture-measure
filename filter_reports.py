@@ -1,5 +1,6 @@
 """
-TODO: Write some documentation in readme, write a description of the file at the top
+This script filters annual report text data to only include paragraphs which include at least one of the provided
+keywords.
 """
 
 import copy

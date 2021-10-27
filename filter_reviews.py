@@ -1,5 +1,6 @@
 """
-TODO: Write some documentation in readme, write a description of the file at the top
+This script filters Glassdoor review data in a csv file to exclude reviews which do not contain at least one of the
+provided keywords in any of its text fields.
 """
 
 import logging

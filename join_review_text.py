@@ -1,5 +1,5 @@
 """
-TODO: Write some documentation in readme, write a description of the file at the top
+This script joins together text fields of Glassdoor review data in a csv sheet into a single text field.
 """
 
 import logging
